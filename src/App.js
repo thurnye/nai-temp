@@ -1,25 +1,68 @@
-import logo from './logo.svg';
+import React, { Component } from 'react'
 import './App.css';
+import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
+import Branding from './container/Branding/branding'
+import Contact from './container/Contact/contact'
+import Durham from './container/Durham/durham'
+import Home from './container/Home/home'
+import LogoWork from './container/LogoWork/logoWork'
+import {
+  BrowserRouter as Router,
+  Route,
+  Switch
+} from 'react-router-dom'
 
-function App() {
+
+export default class App extends Component {
+
+  state = {
+    homeSlide : [
+      {
+        name: "Durham College",
+        description: "this is the durham college work slide",
+        link: "/durham-college"
+      },
+      {
+        name: "Branding",
+        description: "This is my branding slide",
+        link: "/branding"
+      },
+      {
+        name: "Logo Works",
+        description: "This is the logo works slide",
+        link: "/logo-works"
+      },
+      {
+        name: "Contact",
+        description: "This is the contact slide",
+        link: "/contact"
+      },
+      
+    ]
+  }
+
+
+
+
+
+  render() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <React.Fragment>
+      <Router>
+      <Switch>
+                <Route path="/"  exact>
+                  <Home contents = {this.state.homeSlide}/>
+                </Route>
+                <Route path="/branding"  component={Branding} />
+                <Route path="/contact"  component={Contact} />
+                <Route path="/durham-college"  component={Durham} />
+                <Route path="/logo-works"  component={LogoWork} />
+                
+                
+            </Switch>
+        </Router>
+    </React.Fragment>
+  )}
 }
 
-export default App;
+

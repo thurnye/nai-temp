@@ -1,0 +1,43 @@
+ .carousel{
+    /* border: 2px solid red; */
+    height: 80vh;
+    margin-top: 30px;
+
+}
+.home-carousel {
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: black;
+    font-size: 25px;
+    
+}
+
+.carousel-control-prev {
+    display: none;
+}
+.carousel-control-next {
+    display: none;
+}
+
+/* put the carousel indicator in media query for screen more only big screen not mobile screen */
+.carousel-indicators {
+    /* border: 4px solid #12284C; */
+    width: fit-content;
+    margin: auto;
+    text-align:center;
+    border-radius: 7px;
+}
+.carousel-indicators li {
+    height: 14px;
+    width: 15px;
+    margin: 0 0.5em;
+    border: 3px solid #12284C;
+    border-radius: 100%;
+}
+.carousel-indicators li.active {
+    background-color: #12284C;
+}

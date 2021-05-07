@@ -1,0 +1,31 @@
+.durham .container{
+    color: #12284C;
+    margin-top: 22px;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    
+}
+
+.durham .intro h1 {
+    color: #ceb5b1;
+}
+.durham .intro h5 {
+    font-weight: bold;
+}
+.durham .intro h2 {
+    font-weight: 800;
+}
+.durham .intro p {
+    color: #12284cad;
+}
+.durham .intro ol {
+    font-weight: 600;
+}
+
+
+.durham .container .intro {
+    margin: 20px;
+}
