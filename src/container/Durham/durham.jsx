@@ -115,6 +115,9 @@ export default function durham() {
 
 
                 <article className="  durhamCarousel2 container">
+                    <div className="calendar">
+                        <h2>The 2019-2020 Durham College Calendar</h2>
+                    </div>
                     <Carousel>
                         <Carousel.Item interval={6000}>
                             <img className="d-block w-100" src={Flower5} alt="First slide" style={{height: "60vh"}}/>

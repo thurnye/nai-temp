@@ -77,3 +77,8 @@
     width: 18vw;
     border: 2px solid;
 }
+.calendar{
+    text-align: center;
+    font-weight: 800;
+    color: #cea5ac59;
+}
