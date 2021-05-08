@@ -41,6 +41,9 @@
     color: #020202;
     text-align: initial;
 }
+.durhamCarousel1 .carousel-item {
+    margin-bottom: 50px;
+}
 .durhamCarousel1 .sometxt {
     margin-top: -10px;
     margin-bottom: -22px;

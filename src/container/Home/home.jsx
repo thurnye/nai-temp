@@ -8,7 +8,7 @@ export default function home(props) {
     return (
         <React.Fragment>
             <NavBar />
-            <section className="">
+            <section className="home">
 
             <Carousel className="home-carousel"> 
 

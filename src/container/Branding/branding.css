@@ -1,0 +1,21 @@
+.branding{
+    color: #12284C;
+    text-align: center;
+}
+.branding article{
+    height: 100vh
+}
+.branding .olympics{
+    font-weight: 700;
+    margin-bottom: -21px;
+    margin-top: 3vh;
+}
+.branding .carousel{
+    margin-top: 7vh;
+}
+.branding .carousel-item{
+    margin-bottom: 8vh;
+}
+.branding .branding-update{
+    font-weight: 700;
+}
