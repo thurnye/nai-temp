@@ -1,4 +1,10 @@
+.navbar{
+    position: fixed;
+    z-index: 20;
+    width: -webkit-fill-available;
+}
 nav{
+    position: fixed;
     background-color: #12284C;
     border-bottom-right-radius: 10px;
     border-bottom-left-radius: 10px;

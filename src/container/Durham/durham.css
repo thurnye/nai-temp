@@ -1,7 +1,7 @@
 .durham .container{
     color: #12284C;
-    margin-top: 22px;
-    height: 90vh;
+    /* margin-top: 22px; */
+    height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -28,4 +28,52 @@
 
 .durham .container .intro {
     margin: 20px;
+}
+
+.durhamCarousel1 .carousel-caption {
+    position: initial;
+    right: 0;
+    bottom: 20px;
+    left: 0;
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #020202;
+    text-align: initial;
+}
+.durhamCarousel1 .sometxt {
+    margin-top: -10px;
+    margin-bottom: -22px;
+}
+.durhamCarousel1 .sometxt p{
+    margin-left: 5px;
+}
+.durhamCarousel1 .carousel-item, .durhamCarousel2 .carousel-item img {
+    border: 5px solid #12284C;
+    border-radius: 15px;
+    background-color: #fff2f4;
+}
+.durhamCarousel2 .carousel {
+   height: 65vh;
+}
+
+.visualIconText{
+    margin-top: 20px;
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+.visualIconText span{
+    margin-top: 20px;
+    font-weight: 900;
+}
+.previewImages{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: revert;
+}
+.previewImages div{
+    height: 6vh;
+    width: 18vw;
+    border: 2px solid;
 }

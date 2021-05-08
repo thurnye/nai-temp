@@ -5,7 +5,7 @@ import './nav.css'
 
 export default function nav() {
     return (
-        <nav className="navbar navbar-expand-lg navbar-light ">
+        <nav className="navbar navbar-expand-lg navbar-light " >
             <div className="container-fluid">
                 <Nav.Link className="navbar-brand" href="/">
                 <img src={logo}
