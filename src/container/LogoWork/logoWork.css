@@ -1,0 +1,23 @@
+.logoWork{
+    margin-top: 10vh;
+
+}
+.logoWork .item img{
+    height: 60vh;
+    border-radius: 20px;
+}
+.logoWork .owl-nav{
+    font-size: 45px;
+}
+.logoWork .owl-nav{
+    font-size: 45px;
+}
+
+.logoWork .owl-nav .owl-prev:hover{
+    background-color: inherit;
+    color: inherit
+}
+.logoWork .owl-nav .owl-next:hover{
+    background-color: inherit;
+    color: inherit
+}
