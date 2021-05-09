@@ -1,0 +1,11 @@
+.contact{
+    margin-top: 10vh;
+}
+.contact .bioImg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contactForm{
+    margin-top: 10vh;
+}
