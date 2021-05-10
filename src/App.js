@@ -18,21 +18,25 @@ export default class App extends Component {
   state = {
     homeSlide : [
       {
+        id: 1,
         name: "Durham College",
         description: "this is the durham college work slide",
         link: "/durham-college"
       },
       {
+        id: 2,
         name: "Branding",
         description: "This is my branding slide",
         link: "/branding"
       },
       {
+        id: 3,
         name: "Logo Works",
         description: "This is the logo works slide",
         link: "/logo-works"
       },
       {
+        id: 4,
         name: "Contact",
         description: "This is the contact slide",
         link: "/contact"

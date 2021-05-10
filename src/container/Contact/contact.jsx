@@ -25,7 +25,7 @@ export default function Contact() {
       };
 
       
-      let status;
+    
      
 
     //   var alertBox =
@@ -85,7 +85,7 @@ export default function Contact() {
                 </article>
                 
                 <article className="container contactForm">
-                <form id="contact-form" onSubmit={onSubmit}  role="form">
+                <form id="contact-form" onSubmit={onSubmit}>
                     <div class="messages"></div>
                     {/* {toSend.alertMessage} */}
                     {toSend.statusCode === 200 ? 

@@ -8,7 +8,9 @@ import Flower3 from '../../public/images/flower3.jpeg'
 import Flower4 from '../../public/images/flower4.jpeg'
 import Flower5 from '../../public/images/flower5.jpeg'
 import './logoWork.css'
-import reactDom from 'react-dom';
+
+
+
 export default function logoWork() {
 
     return (

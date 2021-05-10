@@ -13,7 +13,7 @@ export default function home(props) {
             <Carousel className="home-carousel"> 
 
             {props.contents.map(el => {
-                           return <Carousel.Item key="el.name">
+                           return <Carousel.Item key={el.id}>
                            <div>
                                 <h5>{el.name}</h5>
                                 <p>{el.description}</p>
