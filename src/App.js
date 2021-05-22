@@ -1,6 +1,9 @@
 import React, { Component } from 'react'
 import './App.css';
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
+
+import "owl.carousel/dist/assets/owl.carousel.css";
+import "owl.carousel/dist/assets/owl.theme.default.css";
 import Branding from './container/Branding/branding'
 import Contact from './container/Contact/contact'
 import Durham from './container/Durham/durham'

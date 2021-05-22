@@ -1,13 +1,14 @@
+
 .durham .container{
     color: #12284C;
-    /* margin-top: 22px; */
-    height: 100vh;
+    margin-top: 22px;
+    height: 90vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    
-    
 }
+
+
 
 .durham .intro h1 {
     color: #ceb5b1;
@@ -29,6 +30,45 @@
 .durham .container .intro {
     margin: 20px;
 }
+
+
+
+.bootstrap-durhamCarousel{
+    display: none;
+}
+.durham-owl-carousel .item{
+    height: 400px;
+}
+.durham-owl-carousel .item img{
+    height: inherit;
+    border: 8px solid #020202;
+    border-radius: 30px;
+}
+.durham-owl-carousel .owl-nav {
+    font-size: 45px;
+}
+.durham .Icongraphic{
+    box-shadow: 3px 8px 18px 4px;
+    border-radius: 20px;
+}
+.durham .Icongraphic .owl-carousel{
+    width: -webkit-fill-available;
+    display: flex;
+    justify-content: center;
+}
+.durham .Icongraphic .card{
+    border: none;
+    color: #020202;
+}
+.durham .Icongraphic .card img{
+    border: 8px solid #020202;
+    border-radius: 22px;
+}
+
+
+
+
+/* Mobile view */
 
 .durhamCarousel1 .carousel-caption {
     position: initial;
@@ -85,3 +125,45 @@
     font-weight: 800;
     color: #cea5ac59;
 }
+
+
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (max-width: 574px) { 
+    .durham .desktop-view{
+        display: none
+    }
+    .durham .container{
+        height: 100vh;
+    }
+    .bootstrap-durhamCarousel{
+        display: block;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 768px){ 
+   
+    .durham .desktop-view{
+        display: none
+    }
+    .durham .container{
+        height: 100vh;
+    }
+    .bootstrap-durhamCarousel{
+        display: block;
+    }
+    
+
+}
+
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+    .bootstrap-durhamCarousel{
+        display: none;
+    }
+    
+   
+   
+}
+
