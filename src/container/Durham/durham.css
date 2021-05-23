@@ -1,11 +1,12 @@
 
 .durham .container{
     color: #12284C;
-    margin-top: 22px;
-    height: 90vh;
+    margin-top: 72px;
+    height: 93vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    
 }
 
 
@@ -126,7 +127,12 @@
     color: #cea5ac59;
 }
 
-
+.durham .desktop-carousel {
+    margin-top: 22px; 
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
 
 /* // Small devices (landscape phones, 576px and up) */
 @media (max-width: 574px) { 
