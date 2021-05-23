@@ -2,13 +2,15 @@
     color: #12284C;
     text-align: center;
 }
+.branding h5, .branding h6 {
+    font-weight: 700;
+}
 .branding article{
     height: 100vh
 }
 .branding .olympics{
     font-weight: 700;
-    margin-bottom: -21px;
-    margin-top: 3vh;
+    margin-top: 7vh;
 }
 .branding .carousel{
     margin-top: 7vh;
@@ -18,4 +20,19 @@
 }
 .branding .branding-update{
     font-weight: 700;
+}
+
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+   
+    .brand-logos img{
+    width: 54%!important;
+    }
+    
+.brand-logos .carousel-inner {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    }
 }

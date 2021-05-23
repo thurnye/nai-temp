@@ -25,7 +25,7 @@ export default function branding() {
             <Nav />
 
             {/* TOKYO */}
-            <article>
+            <article className="olympics">
                 <div className="container">
                     <h5 className="olympics">Tokyo 2020 Olympics Design Concept</h5>
                 </div>
@@ -49,7 +49,7 @@ export default function branding() {
 
            {/* STUDIO LOGO */}
            <div className="container">
-                    <h5 className="olympics">Photography Studio Logo Design Breakdown</h5>
+                    <h5 >Photography Studio Logo Design Breakdown</h5>
             </div>
             <div className="container">
                 <div style={{marginTop: '5vh', marginBottom: '5vh'}}>
@@ -63,7 +63,7 @@ export default function branding() {
                     <h5 className="branding-update">Company Logo and Branding Update</h5>
                     <h6>(Official and Published)</h6>
                 </div>
-                <div className="container">
+                <div className="container brand-logos">
                     <Carousel>
                         <Carousel.Item interval={6000}>
                             <img className="d-block w-100" src={companyLogo5} alt="First slide" style={{height: "65vh"}}/>
